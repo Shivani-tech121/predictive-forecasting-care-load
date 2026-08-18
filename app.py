@@ -23,7 +23,7 @@ st.divider()
 # Load trained model
 @st.cache_resource
 def load_model():
-    return joblib.load("models/random_forest_hhs_care_model.pkl")
+    return joblib.load("random_forest_hhs_care_model.pkl")
 
 model = load_model()
 
